@@ -1,0 +1,42 @@
+body,html{
+    height: 100%;
+    padding: 0;
+    margin:0;
+}
+
+body{
+    /*Fondo*/
+    background: linear-gradient(rgba(189,195,199,8),rgba(44,62,80,.7)),url('img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: courier;
+}
+
+.logo{
+    height: 80px;
+    margin-top: 20px;
+}
+.text-description{
+    /*Tipo de letra*/
+    letter-spacing: 2px;
+    font-family: courier;
+}
+
+.form-control{
+    background: transparent !important;
+    color: #fff !important;
+}
+
+a .fab{
+    color: #fff;
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+/*Clases para el icono de musica fas*/
+a .fas{
+    color: #fff;
+    font-size: 30px;
+    margin: 0 10px;
+}
